@@ -1,0 +1,177 @@
+.banner-section {
+    background-image: linear-gradient(90deg, #ffffffd8 25%, #1d030900 83%), url(../imgs/banner2.jpg);
+}
+#botao-navbar {
+    background-color: rgb(0, 0, 0);
+    color: white;
+    box-shadow: 1px 1px 10px rgb(0, 0, 0);
+}
+
+/*CSS das Mensagens JavaScript Início*/
+.mensagem_consulta .sucesso{
+    font-size: 18px;
+    color: green;
+    position: absolute;
+    display: none;
+    margin-top: -37px;
+    margin-left: 180px;
+}
+.mensagem_consulta .erro{
+    font-size: 18px;
+    color: red;
+    position: absolute;
+    display: none;
+    margin-top: -37px;
+    margin-left: 180px;
+}
+/*CSS das Mensagens JavaScript Fim*/
+
+/*CSS do Formulário de Consulta Início*/
+.form_consulta {
+    width: auto;
+    height: auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    transform: translateY(-735px);
+}
+.titulo_form {
+    font-size: 21px;
+    font-weight: 600;
+    position: relative;
+    margin-bottom: 40px;
+}
+.titulo_form span {
+    color: red;
+}
+.titulo_form::after {
+    content: '';
+    position: absolute;
+    left: 0px;
+    bottom: -12px;
+    width: 230px;
+    height: 3px;
+    background-color: rgb(0, 0, 0);
+}
+label {
+    margin-left: 20px;
+    margin-top: 10px;
+}
+.conteudo_form {
+    width: auto;
+    height: auto;
+    box-shadow: 0px 0px 14px 9px rgba(0, 0, 0, 0.292);
+    padding: 32px;
+    border-radius: 50px;
+    background-color: rgb(255, 255, 255);
+}
+.container_conteudo_form {
+    display: flex;
+    justify-content: center;
+}
+.input_box_form {
+    width: 100%;
+    padding: 9px 16px;
+    border-radius: 100px;
+    outline: none;
+    box-shadow: 1px 1px 10px gray;
+    border: 0px solid black;
+    font-size: 16px;
+    color: rgba(0, 0, 0, 0.67);
+}
+.botao_form_enviar {
+    text-decoration: none;
+    background-color: red;
+    color: white;
+    padding: 12px 25px;
+    font-size:  17px;
+    font-weight: 400;
+    display: inline-block;
+    margin-top: 40px;
+    border-radius: 100px;
+    transition: 500ms;
+    box-shadow: 1px 1px 10px red;
+    border: none;
+}
+.botao_form_enviar:hover {
+    background-color: black;
+    box-shadow: 1px 1px 10px black;
+}
+.botao_form_enviar i{
+    margin-left: 10px;
+}
+/*CSS do Formulário de Consulta Fim*/
+
+/*CSS do Footer Início-----------------------------*/
+footer {
+    width: 100%;
+    margin-top: -610px;
+    height: auto;
+    background-color: rgb(240, 240, 240);
+}
+.titulo_footer {
+    font-size: 27px;
+    color: black;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.footer_navlink {
+    font-size: 16px;
+    font-weight: 400;
+    transition: 0.2s;
+}
+.footer_navlink:hover {
+    margin: 0px 12px;
+}
+.midiasocial_icones {
+    display: flex;
+}
+.icone_app_footer {
+    font-size: 25px;
+    width: 55px;
+    height: 55px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    border: 3px solid rgb(255, 0, 0);
+    background-color: rgb(255, 0, 0);
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    margin: 0px 7px;
+    transition: 500ms;
+    box-shadow: 1px 1px 10px red;
+}
+.icone_app_footer:hover {
+    background-color: black;
+    border: black;
+    box-shadow: 1px 1px 10px black;
+}
+.midiasocial_icones {
+    margin-top: 30px;
+}
+#link_ondeencontrar {
+    color: red;
+    transition: 500ms;
+}
+#link_ondeencontrar:hover {
+    color: black;
+}
+.copyright_footer {
+    width: 100%;
+    height: 5vh;
+    background-color: rgb(199, 199, 199);
+}
+.conteudo_copyright_footer {
+    width: 100%;
+    height: 5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.copyright_texto {
+    color: rgb(0, 0, 0);
+    font-size: 18px;
+    font-weight: 400;
+    margin: 0px;
+}
+/*CSS do Footer Fim--------------------------------*/

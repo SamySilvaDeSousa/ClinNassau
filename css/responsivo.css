@@ -1,0 +1,345 @@
+@media (max-width: 2000px) {
+    .header,
+    .nossos_medicos,
+    .form_consulta,
+    footer,
+    .copyright_footer {
+        width: 100%;
+        height: auto;
+    }
+}
+@media (max-width: 1400px) {
+    .navbar {
+        width: 98.5%;
+        padding: 5px 23px;
+    }
+    .nav-item {
+        margin: 0px 4px;
+    }
+    #footer_servicos {
+        margin-top: 510px;
+    }
+    .mapa {
+        margin-top: 0px;
+    }
+}
+@media (max-width: 1200px) {
+    .navbar_media {
+        display: none;
+    }
+    .navbar_nav {
+        display: flex;
+        width: 100%;
+        justify-content: end;
+    }
+    .navbar {
+        padding: 5px 63px;
+    }
+    .conteudo_banner {
+        max-width: 65%;
+    }
+    .container_titulos_nossosmedicos {
+        padding: 21px 20px;
+    }
+    .footer {
+        margin-top: 0px;
+    }
+    #footer_contato {
+        margin-top: 0px;
+        transform: translateY(1280px);
+    }
+    #copyright_footer_contato {
+        transform: translateY(1280px);
+    }
+    #footer_servicos {
+        margin-top: 510px;
+    }
+    #footer_consulta {
+        margin-top: -610px;
+    }
+    #footer_resultado {
+        margin-top: -610px
+    }
+    #footer_contato {
+        margin-top: -630px;
+    }
+    .mapa {
+        margin-top: 0px;
+    }
+    .botao_link_footer {
+        margin-bottom: 10px;
+    }
+}
+@media (max-width: 992px) {
+    .navbar-nav {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .nav-item {
+        margin: 10px 0px;
+    }
+    .bars {
+        width: 50px;
+        height: 50px;
+        border-radius: 50px;
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 30px;
+    }
+    .titulo_banner {
+        font-size: 57px;
+    }
+    .img_nossosmedicos_container {
+        margin-top: 70%;
+    }
+    .div_medicos {
+        margin-bottom: -100px;
+    }
+    #botao-navbar {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 20px;
+    }
+    #botao-navbar2 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: auto;
+        margin-top: 40px;
+    }
+    footer {
+        margin-top: 0px;
+    }
+    .navbar-brand {
+        font-size: 30px;
+    }
+    .nossas_redes_sociais {
+        transform: translateY(-200px);
+    }
+    #footer_servicos {
+        transform: translateY(313px);
+    }
+    #copyright_footer_servicos {
+        transform: translateY(270px);
+    }
+    #copyright_footer_index {
+        transform: translateY(0px);
+    }
+    #copyright_footer_quemsomos {
+        transform: translateY(0px);
+    }
+    #copyright_footer_consulta {
+        transform: translateY(0px);
+    }
+    #copyright_footer_resultado {
+        transform: translateY(0px);
+    }
+    .form_consulta {
+        transform: translateY(-890px);
+    }
+    .form_contato {
+        transform: translateY(-910px);
+    }
+    #footer_consulta {
+        margin-top: -930px;
+    }
+    #divisoria2_quemsomos {
+        transform: translateY(0px);
+    }
+    #divisoria2_contato {
+        transform: translateY(650px);
+    }
+    .mapa {
+        margin-top: 0px;
+        margin-bottom: 0px;
+        height: 240px;
+    }
+    .copyright_footer {
+        transform: translateY(1280px);
+    }
+    .servico_3 {
+        transform: translateY(-100px);
+    }
+    .divisoria2 {
+        transform: translateY(-100px);
+    }
+    .logo_footer {
+        justify-content: start;
+    }
+    .navbar {
+        width: 98%;
+        padding: 10px;
+    }
+}
+@media (max-width: 768px) {
+    .banner-section {
+        background-image: linear-gradient(90deg, #ffffffd8 100%, #1d030900 83%), url(imgs/banner.jpg);
+        opacity: 1;
+    }
+    .conteudo_banner {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        flex-direction: column;
+        font-size: 56px;
+        line-height: 25px;
+        margin: 30px 0px;
+    }
+    .banner-section .container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .paragrafo_banner {
+        text-align: center;
+    }
+    .img_nossosmedicos_container {
+        margin-top: 70%;
+    }
+    .nossosmedicos_titulo {
+        margin: 0px 0px 0px;
+    }
+    .botao_banner {
+        font-size: 20px;
+    }
+    footer {
+        margin-top: 0px;
+    }
+    #footer_servicos {
+        margin-top: 570px;
+    }
+    #copyright_footer_servicos {
+        transform: translateY(270px);
+    }
+    .navbar {
+        width: 98%;
+    }
+    .mensagem_consulta .sucesso {
+        font-size: 16px;
+    }
+}
+@media (max-width: 600px) {
+    .titulo_banner {
+        font-size: 48px;
+        line-height: 60px;
+    }
+    .img_nossosmedicos_container {
+        margin-top: 70%;
+    }
+    .midiasocial_icones {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .botao_link_footer {
+        margin-bottom: 10px;
+    }
+    .nome_medico {
+        font-size: 20px;
+    }
+    .nossosmedicos_titulo .text-dark {
+        margin-right: 15px;
+        margin-left: 5px;
+    }
+    .nossosmedicos_titulo { 
+        display: flex;
+        flex-direction: column;
+    }
+    .gmap_canvas {
+        width: 100px; 
+        height: 100px;
+    }
+    .icones_midiasocial_medico {
+        width: 210px;
+    }
+    #footer_servicos {
+        margin-top: 570px;
+    }
+    .nossas_redes_sociais {
+        transform: translateY(-150px);
+    }
+    .divisoria2 {
+        transform: translateY(-100px);
+    }
+    .titulo_mapa {
+        transition: 500ms;
+        font-size: 40px;
+    }
+    .navbar {
+        width: 97%;
+    }
+}
+@media (max-width: 529px) {
+    .divisoria2 {
+        transform: translateY(-160px);
+    }
+}
+
+@media (max-width: 478px) {
+    .img_nossosmedicos_container {
+        margin-top: 70%;
+    }
+    .nome_medico {
+        font-size: 20px;
+    }
+    .navbar-brand {
+        font-size: 20px;
+    }
+    .logo_footer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    #footer_servicos {
+        margin-top: 570px;
+    }
+    .nossosservicos_titulo {
+        font-size: 40px;
+    }
+    .divisoria2 {
+        transform: translateY(-148px);
+    }
+    .navbar {
+        width: 95.5%;
+    }
+}
+@media (max-width: 440px) {
+    #footer_servicos {
+        margin-top: 630px;
+    }
+    .navbar {
+        width: 95.5%;
+    }
+    .titulo_footer {
+        font-size: 22px;
+    }
+    .logo_footer {
+        font-size: 26px;
+    }
+}
+@media (max-width: 425px) {
+    #footer_servicos {
+        margin-top: 690px;
+    }
+    .navbar-brand {
+        font-size: 0px;
+    }
+}
+@media (max-width: 400px) {
+    #footer_servicos {
+        margin-top: 738px;
+    }
+    .logo_footer {
+        font-size: 25px;
+    }
+    .titulo_mapa {
+        font-size: 30px;
+    }
+}

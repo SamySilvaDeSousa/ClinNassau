@@ -1,0 +1,183 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: "Poppins", sans-serif;
+}
+::-webkit-scrollbar {
+    width: 10px;
+}
+::-webkit-scrollbar-thumb {
+    background-color: red;
+    border-radius: 100px;
+}
+::-webkit-scrollbar-thumb:hover {
+    background-color: rgb(148, 0, 0);
+}
+/*CSS do Header Início-----------------------------*/
+
+/*CSS da Navbar Início*/
+.header {
+    width: 100%;
+    height: 100vh !important;
+    position: relative;
+}
+.navbar-brand{
+    margin-left: 20px;
+}
+.navbar {
+    width: 99%;
+    padding: 10px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 1px 1px 20px gray;
+    position: fixed;
+    z-index: 99;
+    margin: 10px;
+    border-radius: 50px;
+}
+.nav-link {
+    font-size: 17px;
+    color: red;
+    font-weight: 400;
+    margin: 0px 7px;
+}
+.nav-link:hover {
+    color: black;
+}
+#botao-navbar {
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 11px 20px;
+    background-color: red;
+    color: white;
+    border-radius: 100px;
+    margin-left: auto;
+    margin-right: 20px;
+    transition: 500ms;
+    box-shadow: 1px 1px 10px red;
+}
+#botao-navbar:hover {
+    background-color: rgb(0, 0, 0);
+    box-shadow: 1px 1px 10px rgb(0, 0, 0);
+}
+#botao-navbar span {
+    padding-right: 10px;
+}
+#botao-navbar2 {
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 11px 20px;
+    border: 2px solid red;
+    background-color: rgb(255, 255, 255);
+    color: rgb(255, 0, 0);
+    border-radius: 100px;
+    margin-right: 20px;
+    margin-left: 7px;
+    transition: 500ms;
+    box-shadow: 1px 1px 10px red;
+}
+#botao-navbar2:hover {
+    background-color: rgb(0, 0, 0);
+    box-shadow: 1px 1px 10px rgb(0, 0, 0);
+    color: white;
+    border-color: white;
+}
+#botao-navbar2 span {
+    padding-right: 8px;
+}
+.navbar-toggler {
+    background-color: red;
+    border-radius: 1000px;
+    box-shadow: 1px 1px 10px red;
+    transition: 500ms;
+}
+.navbar-toggler:hover {
+    background-color: rgb(0, 0, 0);
+    border-radius: 1000px;
+    box-shadow: 1px 1px 10px rgb(0, 0, 0);
+}
+/*CSS da Navbar Fim*/
+
+/*CSS do Banner Inínio*/
+.banner-section {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    background-image: linear-gradient(90deg, #ffffffd8 25%, #1d030900 83%), url(imgs/banner.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: transparent;
+    padding-top: 40px;
+}
+.banner-section::after {
+    content: '';
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+    width: 100%;
+    height: 5px;
+    background-color: rgb(255, 0, 0);
+}
+.conteudo_banner {
+    max-width: 45%;
+}
+.titulo_banner {
+    font-size: 60px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.paragrafo_banner {
+    font-size: 16px;
+    color: black;
+    font-weight: 400;
+    line-height: 26px;
+    margin-bottom: 50px;
+}
+.botao_banner {
+    text-decoration: none;
+    padding: 15px 30px;
+    background-color: red;
+    color: white;
+    font-size: 18px;
+    font-weight: 400;
+    border-radius: 100px;
+    transition: 500ms;
+    box-shadow: 1px 1px 10px red;
+}
+.botao_banner:hover {
+    background-color: black;
+    box-shadow: 1px 1px 10px rgb(0, 0, 0);
+}
+.botao_banner span {
+    padding-right: 10px;
+}
+/*CSS do Banner Fim*/
+
+/*CSS do Header Fim--------------------------------*/
+
+.logo_footer {
+    text-decoration: none;
+    color: black;
+    font-size: 30px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-top: 50px;
+}
+.mapouter {
+    box-shadow: 1px 1px 20px gray;
+}
+.botao_link_footer {
+    text-decoration: none;
+}
+
+.endereco_footer {
+    margin-top: 25px; width: 85%;
+}
+
+

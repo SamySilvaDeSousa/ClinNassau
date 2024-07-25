@@ -1,0 +1,198 @@
+.banner-section {
+    background-image: linear-gradient(90deg, #ffffffd8 25%, #1d030900 83%), url(../imgs/banner2.jpg);
+}
+.divisoria {
+    width: 100%;
+    height: 100px;
+    background-color: rgb(255, 255, 255);
+}
+.divisoria2 {
+    width: 100%;
+    height: 5px;
+    background-color: red;
+}
+
+/*CSS da Nossos Médicos Início*/
+.nossos_medicos {
+    width: 100%;
+    height: auto;
+    padding: 100px 10px;
+    background-color: rgb(255, 255, 255);
+}
+.container_titulos_nossosmedicos {
+    width: 95%;
+    margin-bottom: 50px;
+    margin-top: -50px;
+    background-color: rgba(255, 255, 255, 0);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 100px;
+}
+.nossosmedicos_titulo {
+    font-size: 50px;
+    font-weight: 600;
+    color: red;
+    margin-top: 0px;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nossosmedicos_titulo .text-dark {
+    margin-right: 15px;
+    margin-left: 65px;
+}
+.nossosmedicos_container {
+    width: 100%;
+    height: 500px;
+    background-color: rgba(255, 48, 48, 0.985);
+    position: relative;
+    border-radius: 1000px;
+    box-shadow: 1px 1px 20px rgb(255, 0, 0);
+}
+.img_nossosmedicos_container {
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+}
+.img_medico_1 {
+    background-image: url(../imgs/medico1.png);
+    border-radius: 1000px;
+}
+.img_medico_2 {
+    background-image: url(../imgs/medico2.png);
+    border-radius: 1000px;
+}
+.img_medico_3 {
+    background-image: url(../imgs/medico3.png);
+    border-radius: 1000px;
+}
+.icones_midiasocial_medico {
+    position: absolute;
+    bottom: 0px;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    border-radius: 50px;
+    width: 66%;
+    height: 66px;
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 1px 1px 10px red;
+}
+.icones_apps {
+    font-size: 20px;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100px;
+    background-color: white;
+    color: rgb(255, 0, 0);
+    margin: 0px 5px;
+    cursor: pointer;
+    transition: 500ms;
+}
+.icones_apps:hover {
+    background-color: black;
+    color: white;
+}
+.texto_medico {
+    width: 100%;
+    height: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.nome_medico {
+    font-size: 30px;
+    font-weight: 600;
+    margin: 10px 0px;
+    margin-top: -110px;
+}
+.especialidade_medico {
+    color: red;
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: -10px;
+}
+/*CSS da Nossos Médicos Fim*/
+
+/*CSS do Footer Início-----------------------------*/
+footer {
+    width: 100%;
+    height: auto;
+    background-color: rgb(240, 240, 240);
+}
+.titulo_footer {
+    font-size: 27px;
+    color: black;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.footer_navlink {
+    font-size: 16px;
+    font-weight: 400;
+    transition: 0.2s;
+}
+.footer_navlink:hover {
+    margin: 0px 12px;
+}
+.midiasocial_icones {
+    display: flex;
+}
+.icone_app_footer {
+    font-size: 25px;
+    width: 55px;
+    height: 55px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    border: 3px solid rgb(255, 0, 0);
+    background-color: rgb(255, 0, 0);
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    margin: 0px 7px;
+    transition: 500ms;
+    box-shadow: 1px 1px 10px red;
+}
+.icone_app_footer:hover {
+    background-color: black;
+    border: black;
+    box-shadow: 1px 1px 10px rgb(0, 0, 0);
+}
+.midiasocial_icones {
+    margin-top: 30px;
+}
+#link_ondeencontrar {
+    color: red;
+    transition: 500ms;
+}
+#link_ondeencontrar:hover {
+    color: black;
+}
+.copyright_footer {
+    width: 100%;
+    height: 5vh;
+    background-color: rgb(199, 199, 199);
+}
+.conteudo_copyright_footer {
+    width: 100%;
+    height: 5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.copyright_texto {
+    color: rgb(0, 0, 0);
+    font-size: 18px;
+    font-weight: 400;
+    margin: 0px;
+}
+/*CSS do Footer Fim--------------------------------*/
